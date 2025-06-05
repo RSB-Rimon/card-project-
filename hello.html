@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card desing</title>
+    <style>
+      .card {
+        width: 300px;
+        margin: 10px;
+        box-sizing: border-box;
+        box-shadow: 1px 2px 4px black;
+      }
+      .img-style {
+        width: 100%;
+        box-shadow: 2px 5px 6px greenyellow;
+      }
+      .card-body {
+        padding: 5px;
+        background-color: lightcoral;
+        box-shadow: 2px 5px 6px greenyellow;
+      }
+      .card-tittle {
+        font-size: 30px;
+        text-align: center;
+        text-shadow: 4px 4px 8px;
+      }
+      .card-dese {
+        text-align: justify;
+      }
+      .card:hover {
+        box-shadow: 6px 12px 10px rgb(2, 250, 105);
+      }
+      .card-containers {
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        background-color: gray;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card-containers">
+      <!-- this is card one  -->
+      <div class="card">
+        <img
+          class="img-style"
+          src="https://s.france24.com/media/display/451ed2b8-eed6-11ea-afdd-005056bf87d6/w:1280/p:16x9/messi-1805.jpg"
+          alt=""
+        />
+
+        <div class="card-body">
+          <div class="card-tittle">Lionel Messi</div>
+          <div class="card-dese">
+            <p>
+              Lionel Messi is a highly acclaimed Argentine professional
+              footballer, renowned for his exceptional skills and goal-scoring
+              ability. Widely regarded as one of the greatest players of all
+              time,
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- this is card two -->
+      <div class="card">
+        <img class="img-style" src="ronaldo.jpg" alt="" />
+
+        <div class="card-body">
+          <div class="card-tittle">Cristiano Ronaldo</div>
+          <div class="card-dese">
+            <p>
+              Cristiano Ronaldo dos Santos Aveiro, famously known as Cristiano
+              Ronaldo, is a Portuguese professional footballer widely regarded
+              as one of the greatest players in history.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- this is card three -->
+      <div class="card">
+        <img class="img-style" src="Di mariya.jpg" alt="" />
+
+        <div class="card-body">
+          <div class="card-tittle">Ángel Fabián Di María</div>
+          <div class="card-dese">
+            <p>
+              Ángel Fabián Di María is a highly decorated Argentine professional
+              footballer currently playing for Paris Saint-Germain and the
+              Argentina national team.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- this is card four -->
+
+      <div class="card">
+        <img class="img-style" src="hhh.jpg" alt="" />
+
+        <div class="card-body">
+          <div class="card-tittle">Júnior Neymar</div>
+          <div class="card-dese">
+            <p>
+              Neymar da Silva Santos Júnior (born February 5, 1992), known as
+              Neymar, is a Brazilian professional footballer who plays as a
+              forward for Ligue 1 club Paris Saint-Germain and the Brazil
+              national team.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
